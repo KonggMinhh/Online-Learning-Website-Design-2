@@ -35,7 +35,12 @@ a {
 }
 .main-content {
     width: 1170px;
-    max-width: calc(1170px - 48px);
+    max-width: calc(100% - 48px);
+    margin-inline: auto;
+}
+.header-content {
+    width: 1110px;
+    max-width: calc(100% - 48px);
     margin-inline: auto;
 }
 /* Header-fixed */
