@@ -1,0 +1,12 @@
+header.header-fix
+    .header-content
+        nav.navbar
+            ul.list
+                each val in [{href: "#!", title: "Home"}, {href: "#!", title: "Blog"}, {href: "#!", title: "Course"}, {href: "#!", title: "About Us"}]
+                    li
+                        a(href=val.href)= val.title   
+            a.logo(href='/') E-Learn
+            // Action
+            .actions
+                a.action-link(href='#!') Log In
+                a.btn.btn-actions(href='#!') Sign Up
