@@ -156,3 +156,14 @@ a {
 .hero .hero-img .thumb-3 {
     border-radius: 0px 187px 187px 187px;
 }
+/* Logo */
+.logo-brand {
+    margin-top: 398px;
+    background: #ff2359;
+}
+.logo-brand-header {
+    padding: 69px 0 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
