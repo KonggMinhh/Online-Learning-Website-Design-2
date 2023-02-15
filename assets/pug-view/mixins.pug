@@ -1,0 +1,8 @@
+//- features
+mixin featuresItem(img,alt,title,desc)
+    .features-item
+        .features-icon 
+            img(src= img, alt= alt)
+        .features-info 
+            h3.sub-title= title
+            p.line-clamp(style='--line-clamp:4').desc= desc
