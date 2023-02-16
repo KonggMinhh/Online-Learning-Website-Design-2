@@ -299,9 +299,6 @@ a {
     border-radius: 20px 0px;
     object-fit: cover;
 }
-.course-item:nth-child(2) .sub-title {
-    white-space: nowrap;
-}
 .course-item-info {
     padding: 16px 23px 35px;
 }
