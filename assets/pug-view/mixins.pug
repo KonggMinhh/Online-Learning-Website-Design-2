@@ -19,3 +19,12 @@ mixin courseItem(img,alt,title,sub,desc,price)
             .course-footer
                 strong.price= price
                 a.btn-cta-course.btn(href="#!") Join Now 
+
+mixin mentorItem(img,alt,heading,desc)
+    .mentor-item 
+        a(href="#!") 
+            img.thumb(src= img, alt= alt)
+        .mentor-info 
+            a(href="#!") 
+                h3.heading= heading
+            p.desc= desc
