@@ -12,8 +12,8 @@ mixin courseItem(img,alt,title,sub,desc,price)
         a(href="#!") 
             img(src= img, alt= alt).thumb
         .course-item-info 
-            a(href="#!") 
-                h3.title= title 
+            h3
+                a(href="#!").title= title
             p.line-clamp(style='--line-clamp:1').sub-title= sub
             p.desc= desc
             .course-footer
@@ -25,6 +25,6 @@ mixin mentorItem(img,alt,heading,desc)
         a(href="#!") 
             img.thumb(src= img, alt= alt)
         .mentor-info 
-            a(href="#!") 
-                h3.heading= heading
+            h3 
+                a(href="#!").heading= heading 
             p.desc= desc

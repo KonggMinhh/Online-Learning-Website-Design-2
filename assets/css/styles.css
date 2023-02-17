@@ -345,7 +345,6 @@ a {
     border: 1px solid var(--secondary-color);
     border-radius: 25px 0px 25px 25px;
     transition: ease-in-out 0.3s;
-
 }
 .btn-cta-course:hover {
     background: var(--secondary-color);
@@ -422,4 +421,111 @@ a {
     font-size: 1.6rem;
     line-height: 1.75;
     color: #58585d;
+}
+/* contact */
+.contact {
+    margin-top: 160px;
+}
+.contact-container {
+    display: flex;
+}
+.contact-left {
+    width: 45%;
+    padding: 45px 0 65px;
+}
+.contact-left .heading {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 1.22;
+    color: var(--primary-color);
+}
+.contact-left .desc {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #58585d;
+    margin-top: 42px;
+}
+.btn-contact {
+    min-width: 167px;
+    line-height: 59px;
+    margin-top: 55px;
+}
+.contact-info {
+    margin-top: 59px;
+    display: flex;
+    align-items: center;
+}
+.contact-quantity {
+    display: flex;
+    align-items: center;
+}
+.contact-students,
+.contact-course {
+    border-left: 1px solid #58585d;
+    padding-left: 17px;
+}
+.contact-course {
+    margin-left: 30px;
+}
+.contact-info .value {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 1.31;
+    color: var(--primary-color);
+}
+.contact-info span {
+    margin-left: 5px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--primary-color);
+}
+.contact-info .comment {
+    margin-top: 13px;
+    font-family: var(--font-heading);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #58585d;
+}
+
+.contact-right {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+}
+.rectangle {
+    position: relative;
+    width: 534px;
+    height: 623px;
+    background: #3cada9;
+    border-radius: 200px 0px 0px 0px;
+}
+.rectangle .girl-course {
+    position: absolute;
+    bottom: 0;
+    right: 39px;
+}
+.stamp {
+    position: absolute;
+    display: flex;
+    top: 20px;
+    left: 72px;
+    align-items: center;
+    padding: 12px 32px 14px 13px;
+    background: #ffffff;
+    box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+}
+.stamp .label {
+    margin-left: 8px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: var(--primary-color);
 }
