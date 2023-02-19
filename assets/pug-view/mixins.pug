@@ -6,7 +6,7 @@ mixin featuresItem(img,alt,title,desc)
         .features-info 
             h3.sub-title= title
             p.line-clamp(style='--line-clamp:4').desc= desc
-
+//- Course
 mixin courseItem(img,alt,title,sub,desc,price)
     .course-item 
         a(href="#!") 
@@ -19,7 +19,7 @@ mixin courseItem(img,alt,title,sub,desc,price)
             .course-footer
                 strong.price= price
                 a.btn-cta-course.btn(href="#!") Join Now 
-
+//- Mentor
 mixin mentorItem(img,alt,heading,desc)
     .mentor-item 
         a(href="#!") 
@@ -28,3 +28,11 @@ mixin mentorItem(img,alt,heading,desc)
             h3 
                 a(href="#!").heading= heading 
             p.desc= desc
+//- footer
+mixin footerItem(heading,...items)
+    .footer__item 
+        h3.footer__heading= heading 
+        ul.list
+            each item in items
+                li
+                    a(href="#!")= item

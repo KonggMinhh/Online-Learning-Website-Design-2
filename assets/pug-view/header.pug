@@ -3,7 +3,7 @@ header.header-fix
     .main-content
         nav.navbar
             ul.list
-                each val in [{href: "#!", title: "Home"}, {href: "#!", title: "Blog"}, {href: "#!", title: "Course"}, {href: "#!", title: "About Us"}]
+                each val in [{href: "/", title: "Home"}, {href: "#blog", title: "Blog"}, {href: "#course", title: "Course"}, {href: "#aboutus", title: "About Us"}]
                     li
                         a(href=val.href)= val.title   
             a.logo(href='/') E-Learn
